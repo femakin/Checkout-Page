@@ -1,0 +1,405 @@
+.container{
+    width: 55%;
+    margin: 0 auto;
+    padding: 48px;
+}
+
+#input-container  {
+    position: relative;
+   
+  }
+
+  .icon{
+    position: absolute;
+    top: 39px;
+    left: 10px;
+    size: 30px;
+  }
+
+  input[type="text"], select{
+padding-left: 60px;
+width: 565px;
+height: 76px;
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 12px;
+margin-bottom: 30px;
+  }
+
+  .full_content{
+      display: flex;
+      justify-content: space-between;
+  }
+  .right_content{
+    width: 497px;
+    height: 635px;
+    background: #F2F2F2;
+    border-radius: 12px;
+  }
+
+  .last_two{
+      display: flex;
+      justify-content: space-between;
+  }
+  #country, #postalcode{
+      width: 270px
+  }
+
+  .left_content{
+position: relative;
+  }
+
+  .btn{
+position: absolute;
+width: 166px;
+height: 54px;
+background: #F2994A;
+border-radius: 12px;
+margin-top: 30px;
+left: 400px;
+  }
+
+  /* .checkbox{
+      padding-left: 20px;
+  } */
+  #checkbox{
+      margin-right: 20px;
+  }
+
+  
+
+  .right_content{
+      padding: 48px;
+  }
+
+  .image{
+    /* width: 175.7px;
+    height: 195.91px; */
+    width: 65%;
+   object-fit: cover;
+   border-radius: 20px; 
+  margin-right: 38px;
+  }
+
+.item_one{
+    display: flex;
+   /* justify-content: space-between; */
+   margin-bottom:  35px ;
+     
+}
+
+.inner_two{
+    display: flex;
+}
+.inner_two p{
+    padding-right: 30px;
+}
+
+.inputicons{
+    display: flex;
+   position: relative;
+   border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 12px;
+width: 134.25px;
+height: 52px;
+}
+  
+ .btn2{
+    width: 21px;
+    height: 21px;
+  position: absolute;
+  left: 80px;
+  top: 15px;
+  
+}
+
+.value{
+    position: absolute;
+     left: 50px;
+    bottom:  -12px;
+}
+
+.btn1{
+    width: 21px;
+    height: 21px;
+    position: absolute;
+   left: 10px;
+    top: 15px;
+}
+
+.shipping, .total{
+    display: flex;
+    justify-content: space-between;
+   border-top: 1px solid #BDBDBD;
+}
+
+.shipping > p{
+    margin-top: 20px;
+    background-color: greenyellow;
+}
+
+@media only screen and (min-width: 1024px) {
+body{
+    background-color: hotpink;
+}
+
+
+
+
+}
+
+
+
+
+/* 
+.image{
+    width: 100%;
+    height: 49.86px;
+   
+   }
+ 
+   .item_one{
+    padding: 15px;
+    display: flex;
+   justify-content: space-evenly;
+ }
+ 
+ .inner_two{
+     display: flex;
+    
+ }
+ .innerright{
+     margin-left: 40px;
+ }
+ .inner_two p{
+     padding-right: 10px;
+ }
+ 
+ .inputicons{
+     display: flex;
+    position: relative;
+    border: 1px solid #828282;
+ box-sizing: border-box;
+ border-radius: 12px;
+ width: 100.8px;
+ height: 49.86px;
+ }
+ 
+ .btn2{
+     width: 21px;
+     height: 21px;
+   position: absolute;
+   left: 70px;
+   top: 15px;
+   
+ }
+ .value{
+     position: absolute;
+      left: 45px;
+     bottom:  -12px;
+ }
+ 
+ .btn1{
+     width: 21px;
+     height: 21px;
+     position: absolute;
+    left: 10px;
+     top: 15px;
+ }
+ 
+ .inner_name{
+     font-family: 'Montserrat', sans-serif;
+     width: 162.52px;
+ height: 22.21px;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 20px;
+ 
+ color: #4E5150;
+ } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .container{
+    width: 55%;
+    margin: 0 auto;
+    padding: 48px;
+}
+
+#input-container  {
+    position: relative;
+   
+  }
+
+  .icon{
+    position: absolute;
+    top: 39px;
+    left: 10px;
+    size: 30px;
+  }
+
+  input[type="text"], select{
+padding-left: 60px;
+width: 565px;
+height: 76px;
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 12px;
+margin-bottom: 30px;
+  }
+
+  .full_content{
+      display: flex;
+      justify-content: space-between;
+  }
+  .right_content{
+    width: 497px;
+    height: 635px;
+    background: #F2F2F2;
+    border-radius: 12px;
+  }
+
+  .last_two{
+      display: flex;
+      justify-content: space-between;
+  }
+  #country, #postalcode{
+      width: 270px
+  }
+
+  .left_content{
+position: relative;
+  }
+
+.btn{
+position: absolute;
+width: 166px;
+height: 54px;
+background: #F2994A;
+border-radius: 12px;
+margin-top: 30px;
+left: 400px;
+  }
+
+  
+  #checkbox{
+      margin-right: 20px;
+  }
+
+  
+
+  .right_content{
+      padding: 48px;
+  }
+
+  .image{
+   
+    width: 65%;
+   object-fit: cover;
+   border-radius: 20px; 
+  margin-right: 38px;
+  }
+
+.item_one{
+    display: flex;
+   
+   margin-bottom:  35px ;
+     
+}
+
+.inner_two{
+    display: flex;
+}
+.inner_two p{
+    padding-right: 30px;
+}
+
+.inputicons{
+    display: flex;
+   position: relative;
+   border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 12px;
+width: 134.25px;
+height: 52px;
+}
+  
+ .btn2{
+    width: 21px;
+    height: 21px;
+  position: absolute;
+  left: 80px;
+  top: 15px;
+  
+}
+
+.value{
+    position: absolute;
+     left: 50px;
+    bottom:  -12px;
+}
+
+.btn1{
+    width: 21px;
+    height: 21px;
+    position: absolute;
+   left: 10px;
+    top: 15px;
+}
+
+.shipping, .total{
+    display: flex;
+    justify-content: space-between;
+   border-top: 1px solid #BDBDBD;
+}
+
+.shipping > p{
+    margin-top: 20px;
+    background-color: greenyellow;
+}
+
