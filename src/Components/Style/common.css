@@ -267,7 +267,7 @@ select {
   .full_content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 80px;
   }
   .full_content > div:nth-child(2) {
