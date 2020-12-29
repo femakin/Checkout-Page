@@ -328,9 +328,9 @@ select {
     margin-right: 20px;
   }
 
-  .right_content {
+  /* .right_content {
     padding: 48px;
-  }
+  } */
 
   .image {
     width: 65%;
@@ -466,3 +466,7 @@ select {
     left: 296px;
   }
 }
+
+
+
+
